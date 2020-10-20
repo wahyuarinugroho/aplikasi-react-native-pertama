@@ -4,6 +4,9 @@ import SampleComponent from './pages/SampleComponent';
 import StylingComponent from './pages/StylingComponent';
 import FlexBox from './pages/FlexBox';
 import Position from './pages/Position';
+import PropsDinamis from './pages/PropsDinamis';
+import StateDinamis from './pages/StateDinamis';
+import Communication from './pages/Communication';
 
 const App = () => {
   const [isShow, SetIsShow] = useState(true);
@@ -16,10 +19,13 @@ const App = () => {
   return (
     <View>
       <ScrollView>
-      {/* <SampleComponent />
-      <StylingComponent /> */}
-      {isShow && <FlexBox />}
+      {/* <SampleComponent /> */}
+      <StylingComponent />
+      {/* <FlexBox /> */}
       {/* <Position /> */}
+      {/* <PropsDinamis /> */}
+      {/* <StateDinamis /> */}
+      <Communication />
       </ScrollView>
     </View>
       
