@@ -20,7 +20,7 @@ const App = () => {
     <View>
       <ScrollView>
       {/* <SampleComponent /> */}
-      <StylingComponent />
+      {/* <StylingComponent /> */}
       {/* <FlexBox /> */}
       {/* <Position /> */}
       {/* <PropsDinamis /> */}

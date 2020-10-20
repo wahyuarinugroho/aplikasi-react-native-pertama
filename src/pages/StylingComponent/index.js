@@ -53,6 +53,20 @@ const StylingComponent = () => {
             }}>
               JAKARTA
           </Text>
+          <View style={{
+            backgroundColor:'#6FCF97', 
+            paddingVertical: 6, 
+            borderRadius: 25,
+            marginTop: 20,
+            }}>
+          <Text style={{
+            fontSize: 14, 
+            fontWeight: '600', 
+            color: 'white', 
+            textAlign: 'center',
+            }}>
+              BELI</Text>
+          </View>
           </View>
       </View>
     )
