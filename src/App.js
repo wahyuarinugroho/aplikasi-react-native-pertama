@@ -7,6 +7,7 @@ import Position from './pages/Position';
 import PropsDinamis from './pages/PropsDinamis';
 import StateDinamis from './pages/StateDinamis';
 import Communication from './pages/Communication';
+import BasicJavascript from './pages/BasicJavascript';
 
 const App = () => {
   const [isShow, SetIsShow] = useState(true);
@@ -25,7 +26,8 @@ const App = () => {
       {/* <Position /> */}
       {/* <PropsDinamis /> */}
       {/* <StateDinamis /> */}
-      <Communication />
+      {/* <Communication /> */}
+      <BasicJavascript />
       </ScrollView>
     </View>
       
