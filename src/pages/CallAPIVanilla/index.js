@@ -15,33 +15,33 @@ const CallAPIVanilla = () => {
         job: '',
     })
 
-    useEffect(() => {
-        // call API Method GEt
-        // fetch('https://reqres.in/api/users/2')
-        // .then(response => response.json())
-        // .then(json => console.log(json))
+    // useEffect(() => {
+    //     call API Method GEt
+    //     fetch('https://reqres.in/api/users/2')
+    //     .then(response => response.json())
+    //     .then(json => console.log(json))
 
-        // call API Method POST
-        // const dataForAPI = {
-        //     name: "morpheus",
-        //     job: "leader"
-        // }
+    //     call API Method POST
+    //     const dataForAPI = {
+    //         name: "morpheus",
+    //         job: "leader"
+    //     }
 
-        // console.log('data object:', dataForAPI);
-        // console.log('data stringify:', JSON.stringify(dataForAPI));
-        // fetch('https://reqres.in/api/users', {
-        //     method: 'POST',
-        //     headers: {
-        //             'Content-Type': 'aplication/json'  
-        //     },
-        //     body: JSON.stringify(dataForAPI)
-        // })
-        // .then(response => response.json())
-        // .then(json => {
-        //     console.log('post response: ',json)
-        // })
-    },
-     []);
+    //     console.log('data object:', dataForAPI);
+    //     console.log('data stringify:', JSON.stringify(dataForAPI));
+    //     fetch('https://reqres.in/api/users', {
+    //         method: 'POST',
+    //         headers: {
+    //                 'Content-Type': 'aplication/json'  
+    //         },
+    //         body: JSON.stringify(dataForAPI)
+    //     })
+    //     .then(response => response.json())
+    //     .then(json => {
+    //         console.log('post response: ',json)
+    //     })
+    // },
+    //  []);
 
      const getData = () => {
         fetch('https://reqres.in/api/users/2')
@@ -58,21 +58,18 @@ const CallAPIVanilla = () => {
             job: "leader"
         }
 
-        //  console.log('data object:', dataForAPI);
-        // console.log('data stringify:', JSON.stringify(dataForAPI));
         fetch('https://reqres.in/api/users', {
             method: 'POST',
             headers: {
-                    'Content-Type': 'aplication/json'  
+                'Content-Type': 'application/json'
             },
             body: JSON.stringify(dataForAPI)
         })
         .then(response => response.json())
         .then(json => {
-            console.log('post response: ', json)
+            console.log('post response:', json)
             setDatajob(json)
         })
-
     }
 
     return (
