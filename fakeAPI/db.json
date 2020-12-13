@@ -1,9 +1,22 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
-  }
+  "users": [
+    {
+      "name": "WAHYU",
+      "email": "ari@yahoo.com",
+      "bidang": "pendidikan",
+      "id": 2
+    },
+    {
+      "name": "ARI",
+      "email": "nugroho@gmail.com",
+      "bidang": "IT",
+      "id": 3
+    },
+    {
+      "name": "NUGROHO",
+      "email": "nugroho@gmail.com",
+      "bidang": "wiraswasta",
+      "id": 4
+    }
+  ]
+}
